@@ -1,0 +1,118 @@
+\documentclass[openany]{book}
+\usepackage[spanish]{babel}
+\usepackage{mathptmx}
+\usepackage{geometry}
+\usepackage{changepage}
+\usepackage[pagestyles]{titlesec}
+
+\geometry{top=12mm, right=10mm, bottom=9mm, left=10mm}
+\geometry{papersize={130mm, 200mm}}
+
+\newpagestyle{mystyle}
+{\sethead[\thepage][][
+  \MakeUppercase {\textit {\chaptertitle}}
+]{}{}{\thepage}}
+\pagestyle{mystyle}
+
+
+\begin{document}
+
+\pagenumbering{gobble}
+\begin{adjustwidth}{1.8cm}{0cm}
+El Arte de la Guerra es el mejor libro de estrategia de todos
+  los tiempos. Inspiró a Napoleón, Maquiavelo, Mao Tse Tung 
+  y muchas más figuras históricas. Este libro de dos mil 
+  quinientos años de antigüedad es uno de los más importantes
+  textos clásicos chinos, en el que, a pesar del tiempo 
+  transcurrido, ninguna de sus máximas ha quedado anticuada, 
+  ni hay un solo consejo que hoy no sea útil. Pero la
+  obra del general Sun Tzu no es únicamente un libro 
+  de práctica militar, sino un tratado que enseña la 
+  estrategia suprema de aplicar con sabiduría el conocimiento
+  de la naturaleza humana en los momentos de confrontación.
+  No es, por tanto, un libro sobre la guerra; es una obra
+  para comprender las raíces de un conflicto y buscar
+  una solución. ``La mejor victoria es vencer sin combatir'',
+  nos dice Sun Tzu, ``y ésa es la distinción entre el hombre
+  prudente y el ignorante''.
+
+\end{adjustwidth}
+
+
+\newpage 
+\clearpage 
+\thispagestyle{empty}
+\ 
+\newpage 
+
+\thispagestyle{empty}
+\setcounter{page}{1}
+
+\tableofcontents
+
+
+\newpage 
+\clearpage 
+\thispagestyle{empty}
+\ 
+\clearpage 
+\newpage
+
+\thispagestyle{empty}
+
+\newgeometry{top=12mm, right=10mm, bottom=9mm, left=10mm}
+\begin{center}
+  \begin{LARGE}
+    \textbf{Introducción} \\
+  \end{LARGE}
+\end{center}
+
+\begin{large}
+  \begin{center}
+  Sun Tzu, El Arte de la Guerra
+  \end{center}
+\end{large}
+
+\vspace{2mm}
+\thispagestyle{empty}
+{
+Sun Tzu fué un general chino que vivió alrededor del siglo V antes de Cristo. La colección de ensayos sobre el arte de la guerra atribuida a Sun Tzu es el tratado más antiguo que se conoce sobre el tema. A pesar de su antigüedad los consejos de Sun Tzu siguen manteniendo vigencia.
+El Arte de la Guerra es el mejor libro de estrategia de todos los tiempos. Inspiró a Napoleón, Maquiavelo, Mao Tse Tung y muchas más figuras históricas. Este libro de dos mil quinientos años de antigüedad es uno de los más importantes textos clásicos chinos, en el que, a pesar del tiempo transcurrido, ninguna de sus máximas ha quedado anticuada, ni hay un solo consejo que hoy no sea útil. Pero la obra del general Sun Tzu no es únicamente un libro de práctica militar, sino un tratado que enseña la estrategia suprema de aplicar con sabiduría el conocimiento de la naturaleza humana en los momentos de confrontación. No es, por tanto, un libro sobre la guerra; es una obra para comprender las raíces de un conflicto y buscar una solución. ``La mejor victoria es vencer sin combatir'', nos dice Sun Tzu, ``y ésa es la distinción entre el hombre prudente y el ignorante''.
+La obra de Sun Tzu llegó por primera vez a Europa en el periodo anterior a la Revolución Francesa, en forma de una breve traducción realizada por el sacerdote jesuita J. J. M. Amiot. En las diversas traducciones que se han hecho desde entonces, se nombra ocasionalmente al autor como Sun Wu o Sun Tzi.
+El núcleo de la filosofía de Sun Tzu sobre la guerra descansa en estos dos principios:
+
+Todo el Arte de la Guerra se basa en el engaño. El supremo Arte de la Guerra es someter al enemigo sin luchar.
+Las ideas de Sun Tzu se extendieron por el resto de Asia hasta llegar a Japón. Los japoneses adoptaron rápidamente estas enseñanzas y, posiblemente, añadieron algunas de su propia cosecha. Hay constancia de que el principal libro japonés sobre el tema, ``El libro de los Cinco Anillos'', está influido por la filosofía de Sun Tzu, ya que su autor, Miyamoto Mushashi, estudió el tratado de ``El Arte de la Guerra'' durante su formación como Samurai.
+Habitualmente se hace referencia a las culturas orientales como culturas de estrategia y no es pequeña la influencia de Sun Tzu en este desarrollo cultural. Hoy en día, la filosofía del arte de la guerra ha ido más allá de los límites estrictamente militares, aplicándose a los negocios, los deportes, la diplomacia e incluso el comportamiento personal. Por ejemplo, muchas frases clave de los manuales modernos de gestión de empresas, son prácticamente citas literales de la obra de Sun Tzu (cambiando, por ejemplo, ejercito por empresa, o armamento por recursos, sin ir más lejos). Las ideas siguen siendo completamente válidas a pesar de los 25 siglos transcurridos desde que se escribieron.
+}
+
+\newpage 
+\clearpage 
+\thispagestyle{empty}
+\ 
+\newpage 
+
+\thispagestyle{empty}
+\pagenumbering{gobble}
+\setcounter{chapter}{0}
+
+\pagenumbering{gobble}
+
+\restoregeometry
+
+\pagenumbering{arabic}
+\setcounter{page}{1}
+  \include{ch1}
+  \include{ch2}
+  \include{ch3}
+  \include{ch4}
+  \include{ch5}
+  \include{ch6}
+  \include{ch7}
+  \include{ch8}
+  \include{ch9}
+  \include{ch10}
+  \include{ch11}
+  \include{ch12}
+  \include{ch13}
+\end{document}
